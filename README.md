@@ -1,16 +1,14 @@
 # Rodde-It ✏️
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-
 ## Description
-This full stack web application utilizes HTML, CSS, Handlebars, JavaScript, MySQL, Node.js, and Node Package Manager (bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session , handlebars, mysql2, sequelize) to build an MVP startup forum resembling Reddit. Through the implementation of the MVC paradigm, Object-Relational Mapping, CRUD functionality, template generating engines, and authentication features, users have the ability of:
+This full stack web application utilizes HTML, CSS, Handlebars, JavaScript, MySQL, Node.js, and Node Package Manager (bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session , handlebars, mysql2, sequelize) to build an MVP startup forum resembling Reddit. Through the implementation of the MVC paradigm, Object-Relational Mapping, CRUD functionality, template generating engines, and authentication features, users have the ability to:
 
-- Signing up and creating an account
-- Logging in as a returning user
-- Creating, editing, viewing, and deleting posts
-- Adding comments to posts
-- Upvoting or Downvoting on posts
-- Navigating to Sign up, Log in, Home, Dashboard, and Edit pages
+- Sign up and create an account
+- Log in as a returning user
+- Create, edit, view, and delete posts
+- Add comments to posts
+- Upvote or Downvote on posts
+- Navigate to Sign up, Log in, Home, Dashboard, and Edit pages
 
 > Visit the deployed Heroku site [HERE](https://rodde-it.herokuapp.com/)
 
@@ -30,7 +28,7 @@ This full stack web application utilizes HTML, CSS, Handlebars, JavaScript, MySQ
 - To install this application, clone this repository onto your local computer, open it in your code editor, and run the following command on your terminal: ```npm install```
 
 - Once all dependencies have been installed, create an environment variable file (.env) at the root level of this application with the following content for successful connection to the database:
-    - DB_NAME = ecommerce_db
+    - DB_NAME = platform_db
     - DB_USER = <'mysql-username-here'> (If no username is set, default user for SQL is 'root')
     - DB_PW = <'mysql-password-here'> (If no password is set, by default SQL has no password)
 
@@ -43,8 +41,7 @@ This full stack web application utilizes HTML, CSS, Handlebars, JavaScript, MySQ
 - Once the server has been turned on, head over to Insomnia to test API GET, POST, PUT, and DELETE routes in order to create, read, update, and delete data from the SQL database.  
 
 ## Preview
-![screenshot of index.html](./public/images/Screen-Shot.png)
-
+![Screenshot](./public/images/rodde-it-preview.png)
 
 ## License
 - This project is licensed under: [ISC](https://opensource.org/licenses/ISC)
@@ -57,13 +54,11 @@ This full stack web application utilizes HTML, CSS, Handlebars, JavaScript, MySQ
 ## Questions
 - Please feel free to use this application at any time and visit our personal GitHub profiles to access other open source projects! 
 
-- [Denysha's GitHub](https://github.com/denysha-abigail)
-- [Amir's GitHub](https://github.com/Amir-Hackett)
-- [Dean's GitHub](https://github.com/DeanK24)
-- [Disha's GitHub](https://github.com/Disha2022)
-
 ## Credits
-- *Denysha Guerrios-Armaiz, 06/2022*
-- *Amir Hackett, 06/2022*
-- *Dean Ketchmark, 06/2022*
-- *Disha Barua, 06/2022*
+- Denysha Guerrios-Armaiz, 06/2022 | [GitHub](https://github.com/denysha-abigail) | [Portfolio](https://denysha-abigail.github.io/denysha-abigail.io/) | [LinkedIn](https://www.linkedin.com/in/denysha-guerrios-armaiz-ab2750229/)
+
+- Amir Hackett, 06/2022 | [GitHub](https://github.com/Amir-Hackett) | [Portfolio](https://amir-hackett.github.io/Professional-Portfolio/) | [LinkedIn](https://www.linkedin.com/in/amir-hackett/) 
+
+- Dean Ketchmark, 06/2022 | [GitHub](https://github.com/DeanK24) | [Portfolio](https://deank24.github.io/Coding-Portfolio/)
+
+- Disha Barua, 06/2022 | [GitHub](https://github.com/Disha2022) | [Portfolio](https://disha2022.github.io/disha-portfolio/) | [LinkedIn](https://www.linkedin.com/in/dishaaa/)
